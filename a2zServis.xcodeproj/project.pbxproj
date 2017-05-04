@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4E4C0D1EB9BCFB000535CF /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C0C1EB9BCFB000535CF /* LoadingController.swift */; };
+		4D4E4C311EB9D180000535CF /* CalenderTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C301EB9D180000535CF /* CalenderTabBarController.swift */; };
+		4D4E4C331EB9D190000535CF /* MessageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C321EB9D190000535CF /* MessageTabBarController.swift */; };
+		4D4E4C351EB9D1A3000535CF /* PlassTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C341EB9D1A3000535CF /* PlassTabBarController.swift */; };
+		4D4E4C371EB9D1C6000535CF /* GiftTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C361EB9D1C6000535CF /* GiftTabBarController.swift */; };
+		4D4E4C391EB9D1D2000535CF /* UserTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C381EB9D1D2000535CF /* UserTabBarController.swift */; };
+		4DB4631E1EBA3A02008E5D05 /* handy_v2.2.5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4631D1EBA3A02008E5D05 /* handy_v2.2.5.ttf */; };
+		4DB463201EBA548E008E5D05 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4631F1EBA548E008E5D05 /* TabBarController.swift */; };
 		4DFE17061EB9A90800797972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17051EB9A90800797972 /* AppDelegate.swift */; };
 		4DFE17081EB9A90800797972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17071EB9A90800797972 /* ViewController.swift */; };
 		4DFE170B1EB9A90800797972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE17091EB9A90800797972 /* Main.storyboard */; };
-		4DFE170D1EB9A90800797972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE170C1EB9A90800797972 /* Assets.xcassets */; };
-		4DFE17101EB9A90800797972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE170E1EB9A90800797972 /* LaunchScreen.storyboard */; };
 		4DFE171B1EB9A90800797972 /* a2zServisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE171A1EB9A90800797972 /* a2zServisUITests.swift */; };
+		4DFE17261EB9A97A00797972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE17251EB9A97A00797972 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D4E4C0C1EB9BCFB000535CF /* LoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		4D4E4C301EB9D180000535CF /* CalenderTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderTabBarController.swift; sourceTree = "<group>"; };
+		4D4E4C321EB9D190000535CF /* MessageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTabBarController.swift; sourceTree = "<group>"; };
+		4D4E4C341EB9D1A3000535CF /* PlassTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlassTabBarController.swift; sourceTree = "<group>"; };
+		4D4E4C361EB9D1C6000535CF /* GiftTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftTabBarController.swift; sourceTree = "<group>"; };
+		4D4E4C381EB9D1D2000535CF /* UserTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTabBarController.swift; sourceTree = "<group>"; };
+		4DB4631D1EBA3A02008E5D05 /* handy_v2.2.5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = handy_v2.2.5.ttf; sourceTree = "<group>"; };
+		4DB4631F1EBA548E008E5D05 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4DFE17021EB9A90800797972 /* a2zServis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a2zServis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE17051EB9A90800797972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DFE17071EB9A90800797972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DFE170A1EB9A90800797972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DFE170C1EB9A90800797972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DFE170F1EB9A90800797972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DFE17111EB9A90800797972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DFE17161EB9A90800797972 /* a2zServisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = a2zServisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE171A1EB9A90800797972 /* a2zServisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a2zServisUITests.swift; sourceTree = "<group>"; };
 		4DFE171C1EB9A90800797972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFE17251EB9A97A00797972 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DB463231EBA6947008E5D05 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4DB4631F1EBA548E008E5D05 /* TabBarController.swift */,
+				4D4E4C301EB9D180000535CF /* CalenderTabBarController.swift */,
+				4D4E4C321EB9D190000535CF /* MessageTabBarController.swift */,
+				4D4E4C341EB9D1A3000535CF /* PlassTabBarController.swift */,
+				4D4E4C361EB9D1C6000535CF /* GiftTabBarController.swift */,
+				4D4E4C381EB9D1D2000535CF /* UserTabBarController.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 		4DFE16F91EB9A90800797972 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				4DFE17051EB9A90800797972 /* AppDelegate.swift */,
+				4D4E4C0C1EB9BCFB000535CF /* LoadingController.swift */,
 				4DFE17071EB9A90800797972 /* ViewController.swift */,
 				4DFE17091EB9A90800797972 /* Main.storyboard */,
-				4DFE170C1EB9A90800797972 /* Assets.xcassets */,
-				4DFE170E1EB9A90800797972 /* LaunchScreen.storyboard */,
+				4DB463231EBA6947008E5D05 /* TabBar */,
+				4DFE17251EB9A97A00797972 /* Images.xcassets */,
 				4DFE17111EB9A90800797972 /* Info.plist */,
+				4DB4631D1EBA3A02008E5D05 /* handy_v2.2.5.ttf */,
 			);
 			path = a2zServis;
 			sourceTree = "<group>";
@@ -179,8 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFE17101EB9A90800797972 /* LaunchScreen.storyboard in Resources */,
-				4DFE170D1EB9A90800797972 /* Assets.xcassets in Resources */,
+				4DFE17261EB9A97A00797972 /* Images.xcassets in Resources */,
+				4DB4631E1EBA3A02008E5D05 /* handy_v2.2.5.ttf in Resources */,
 				4DFE170B1EB9A90800797972 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4E4C371EB9D1C6000535CF /* GiftTabBarController.swift in Sources */,
+				4D4E4C0D1EB9BCFB000535CF /* LoadingController.swift in Sources */,
 				4DFE17081EB9A90800797972 /* ViewController.swift in Sources */,
+				4DB463201EBA548E008E5D05 /* TabBarController.swift in Sources */,
 				4DFE17061EB9A90800797972 /* AppDelegate.swift in Sources */,
+				4D4E4C391EB9D1D2000535CF /* UserTabBarController.swift in Sources */,
+				4D4E4C351EB9D1A3000535CF /* PlassTabBarController.swift in Sources */,
+				4D4E4C331EB9D190000535CF /* MessageTabBarController.swift in Sources */,
+				4D4E4C311EB9D180000535CF /* CalenderTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +265,6 @@
 				4DFE170A1EB9A90800797972 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4DFE170E1EB9A90800797972 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DFE170F1EB9A90800797972 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,11 +369,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = a2zServis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a2z.a2zServis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,11 +383,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = a2zServis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a2z.a2zServis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -406,6 +438,7 @@
 				4DFE17211EB9A90800797972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFE17221EB9A90800797972 /* Build configuration list for PBXNativeTarget "a2zServisUITests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +447,7 @@
 				4DFE17241EB9A90800797972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

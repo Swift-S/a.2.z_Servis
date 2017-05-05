@@ -40,6 +40,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>handy_v2.2.5.ttf</string>
+		<string>iransans-medium.ttf</string>
+		<string>iransans-light.ttf</string>
+		<string>IRAN-Sans.ttf</string>
 	</array>
 </dict>
 </plist>

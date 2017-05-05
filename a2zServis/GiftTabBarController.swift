@@ -14,8 +14,8 @@ class GiftTabBarController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-//        giftIcon.title = "\u{E907}"
+        // I'm Here...
+        self.navigationController?.isNavigationBarHidden = true
     }
 
     override func didReceiveMemoryWarning() {

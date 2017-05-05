@@ -16,11 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-//        UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "handy", size: 50)!], for: .normal)
-//        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.orange,NSFontAttributeName: UIFont(name: "handy", size: 50)!], for: .selected)
-//        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.yellow,NSFontAttributeName: UIFont(name: "handy", size: 50)!], for: .normal)
-
 
         return true
     }

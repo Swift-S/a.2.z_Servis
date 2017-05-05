@@ -14,8 +14,9 @@ class CalenderTabBarController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-//        calenderIcon.title = "\u{e908}"
+        // I'm Here...    
+        self.navigationController?.isNavigationBarHidden = true
+
     }
 
     override func didReceiveMemoryWarning() {

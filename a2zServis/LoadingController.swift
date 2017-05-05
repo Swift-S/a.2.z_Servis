@@ -20,8 +20,19 @@ class LoadingController: UIViewController {
         // I'm Here...
         self.rotateLoading()
         self.setupLoader()
-    }
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let backItem = UIBarButtonItem()
+        backItem.title = "test"
+        navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+    }
 
     private func setupLoader() {
         perform(#selector(self.showFeed), with: nil, afterDelay: 1)

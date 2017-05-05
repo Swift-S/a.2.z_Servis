@@ -10,25 +10,13 @@ import UIKit
 
 class MessageTabBarController: UIViewController {
 
-    @IBOutlet weak var test: UITextView!
     @IBOutlet weak var tabBaritem: UITabBarItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-//        let appearance = UITabBarItem.appearance()
-//        let attributes: [String: AnyObject] = [NSFontAttributeName:UIFont(name: "handy", size: 50)!, NSForegroundColorAttributeName: UIColor.orange]
-//        appearance.setTitleTextAttributes(attributes, for: .normal)
-        
-//        test.text = "\e60a"
-//        test.text = "\u{e609}"
-//        tabBaritem.isEnabled = true
-//        tabBaritem.accessibilityElementsHidden = false
-//        tabBaritem.title = "\u{e609}"
-//        tabBaritem.badgeColor = UIColor.black
-//        tabBarItem = UITabBarItem(title: "\u{e609}", image: UIImage(named: ""), selectedImage: UIImage(named: ""))
-//        test.text = "\u{e61A}"
+        // I'm Here...        
+        self.navigationController?.isNavigationBarHidden = true
+
     }
 
     override func didReceiveMemoryWarning() {

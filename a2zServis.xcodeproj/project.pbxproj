@@ -16,6 +16,10 @@
 		4D4E4C391EB9D1D2000535CF /* UserTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E4C381EB9D1D2000535CF /* UserTabBarController.swift */; };
 		4D690A611EBD041B003DD412 /* IRAN-Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D690A601EBD041B003DD412 /* IRAN-Sans.ttf */; };
 		4DA8C6C51EBB4406000FBF06 /* ElectricalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8C6C41EBB4406000FBF06 /* ElectricalViewController.swift */; };
+		4DAE90881EBF16B300D11AF8 /* IntroPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE90871EBF16B300D11AF8 /* IntroPagerViewController.swift */; };
+		4DAE908A1EBF181E00D11AF8 /* IntroContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE90891EBF181E00D11AF8 /* IntroContentViewController.swift */; };
+		4DAE908C1EBF316200D11AF8 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE908B1EBF316200D11AF8 /* Strings.swift */; };
+		4DAE908E1EBF328400D11AF8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE908D1EBF328400D11AF8 /* IntroViewController.swift */; };
 		4DB4631E1EBA3A02008E5D05 /* handy_v2.2.5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4631D1EBA3A02008E5D05 /* handy_v2.2.5.ttf */; };
 		4DB463201EBA548E008E5D05 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4631F1EBA548E008E5D05 /* TabBarController.swift */; };
 		4DD289381EBCA9AF009D66C2 /* LightingQuestionVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD289371EBCA9AF009D66C2 /* LightingQuestionVIewController.swift */; };
@@ -25,7 +29,6 @@
 		4DF043F51EBDD42F0022963B /* DateOfWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF043F41EBDD42F0022963B /* DateOfWorkViewController.swift */; };
 		4DF043F71EBDF3D10022963B /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF043F61EBDF3D10022963B /* UserDataViewController.swift */; };
 		4DFE17061EB9A90800797972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17051EB9A90800797972 /* AppDelegate.swift */; };
-		4DFE17081EB9A90800797972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17071EB9A90800797972 /* ViewController.swift */; };
 		4DFE170B1EB9A90800797972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE17091EB9A90800797972 /* Main.storyboard */; };
 		4DFE171B1EB9A90800797972 /* a2zServisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE171A1EB9A90800797972 /* a2zServisUITests.swift */; };
 		4DFE17261EB9A97A00797972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE17251EB9A97A00797972 /* Images.xcassets */; };
@@ -53,6 +56,10 @@
 		4D4E4C381EB9D1D2000535CF /* UserTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTabBarController.swift; sourceTree = "<group>"; };
 		4D690A601EBD041B003DD412 /* IRAN-Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN-Sans.ttf"; sourceTree = "<group>"; };
 		4DA8C6C41EBB4406000FBF06 /* ElectricalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricalViewController.swift; sourceTree = "<group>"; };
+		4DAE90871EBF16B300D11AF8 /* IntroPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroPagerViewController.swift; sourceTree = "<group>"; };
+		4DAE90891EBF181E00D11AF8 /* IntroContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroContentViewController.swift; sourceTree = "<group>"; };
+		4DAE908B1EBF316200D11AF8 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		4DAE908D1EBF328400D11AF8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		4DB4631D1EBA3A02008E5D05 /* handy_v2.2.5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = handy_v2.2.5.ttf; sourceTree = "<group>"; };
 		4DB4631F1EBA548E008E5D05 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4DBC04E91EBB335A003B5F97 /* iransans-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iransans-medium.ttf"; sourceTree = "<group>"; };
@@ -65,7 +72,6 @@
 		4DF043F61EBDF3D10022963B /* UserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 		4DFE17021EB9A90800797972 /* a2zServis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a2zServis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE17051EB9A90800797972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DFE17071EB9A90800797972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DFE170A1EB9A90800797972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DFE17111EB9A90800797972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DFE17161EB9A90800797972 /* a2zServisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = a2zServisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +153,9 @@
 			children = (
 				4DFE17051EB9A90800797972 /* AppDelegate.swift */,
 				4D4E4C0C1EB9BCFB000535CF /* LoadingController.swift */,
-				4DFE17071EB9A90800797972 /* ViewController.swift */,
+				4DAE908D1EBF328400D11AF8 /* IntroViewController.swift */,
+				4DAE90891EBF181E00D11AF8 /* IntroContentViewController.swift */,
+				4DAE90871EBF16B300D11AF8 /* IntroPagerViewController.swift */,
 				4DB463231EBA6947008E5D05 /* TabBar */,
 				4DA8C6C41EBB4406000FBF06 /* ElectricalViewController.swift */,
 				4DD289371EBCA9AF009D66C2 /* LightingQuestionVIewController.swift */,
@@ -156,6 +164,7 @@
 				4DD289391EBCA9BF009D66C2 /* FansQuestionViewController.swift */,
 				4DD2893B1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift */,
 				4DD2893D1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift */,
+				4DAE908B1EBF316200D11AF8 /* Strings.swift */,
 				4DFE17091EB9A90800797972 /* Main.storyboard */,
 				4DFE17251EB9A97A00797972 /* Images.xcassets */,
 				4DFE17111EB9A90800797972 /* Info.plist */,
@@ -392,11 +401,12 @@
 				4DD2893A1EBCA9BF009D66C2 /* FansQuestionViewController.swift in Sources */,
 				4D4E4C371EB9D1C6000535CF /* GiftTabBarController.swift in Sources */,
 				4D4E4C0D1EB9BCFB000535CF /* LoadingController.swift in Sources */,
-				4DFE17081EB9A90800797972 /* ViewController.swift in Sources */,
 				4DD289381EBCA9AF009D66C2 /* LightingQuestionVIewController.swift in Sources */,
+				4DAE908C1EBF316200D11AF8 /* Strings.swift in Sources */,
 				4DD2893C1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift in Sources */,
 				4DB463201EBA548E008E5D05 /* TabBarController.swift in Sources */,
 				4DA8C6C51EBB4406000FBF06 /* ElectricalViewController.swift in Sources */,
+				4DAE908A1EBF181E00D11AF8 /* IntroContentViewController.swift in Sources */,
 				4DFE17061EB9A90800797972 /* AppDelegate.swift in Sources */,
 				4DD2893E1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift in Sources */,
 				4D4E4C391EB9D1D2000535CF /* UserTabBarController.swift in Sources */,
@@ -405,6 +415,8 @@
 				4D4E4C331EB9D190000535CF /* MessageTabBarController.swift in Sources */,
 				4D4E4C311EB9D180000535CF /* CalenderTabBarController.swift in Sources */,
 				4DF043F71EBDF3D10022963B /* UserDataViewController.swift in Sources */,
+				4DAE90881EBF16B300D11AF8 /* IntroPagerViewController.swift in Sources */,
+				4DAE908E1EBF328400D11AF8 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,18 @@ class TabBarController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let backItem = UIBarButtonItem()
+        backItem.title = "test"
+        navigationItem.backBarButtonItem = backItem // This will show in the next view controller being pushed
+    }
+
     func setupView() {
         self.selectedIndex = 02
         self.tabBar.items?[0].title = "\u{e908}"

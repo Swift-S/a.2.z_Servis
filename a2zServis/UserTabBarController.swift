@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SCLAlertView
 
 class UserTabBarController: UIViewController {
     
@@ -17,12 +18,9 @@ class UserTabBarController: UIViewController {
 
         // I'm Here...
         self.navigationController?.isNavigationBarHidden = true
+        let appearance = SCLAlertView.SCLAppearance(showCloseButton: false)
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showWait(":)", subTitle: "Comming Soon", duration: 1, colorStyle: 0xFDB52B)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
 }

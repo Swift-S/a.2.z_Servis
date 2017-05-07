@@ -14,8 +14,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         self.setupView()
     }
-
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -28,7 +27,7 @@ class TabBarController: UITabBarController {
         self.tabBar.items?[2].title = "\u{e613}"
         self.tabBar.items?[3].title = "\u{e907}"
         self.tabBar.items?[4].title = "\u{e61A}"
-        self.tabBar.items?[2].setTitleTextAttributes([NSFontAttributeName: UIFont(name: "handy", size: 37)as Any], for: .normal)
+        self.tabBar.items?[2].setTitleTextAttributes([NSFontAttributeName: UIFont(name: "handy", size: 34)as Any], for: .normal)
         UITabBarItem.appearance().titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -12)
         
         //        UITabBar.appearance().tintColor = UIColor.black

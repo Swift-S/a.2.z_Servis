@@ -22,6 +22,8 @@
 		4DD2893A1EBCA9BF009D66C2 /* FansQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD289391EBCA9BF009D66C2 /* FansQuestionViewController.swift */; };
 		4DD2893C1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2893B1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift */; };
 		4DD2893E1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2893D1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift */; };
+		4DF043F51EBDD42F0022963B /* DateOfWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF043F41EBDD42F0022963B /* DateOfWorkViewController.swift */; };
+		4DF043F71EBDF3D10022963B /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF043F61EBDF3D10022963B /* UserDataViewController.swift */; };
 		4DFE17061EB9A90800797972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17051EB9A90800797972 /* AppDelegate.swift */; };
 		4DFE17081EB9A90800797972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE17071EB9A90800797972 /* ViewController.swift */; };
 		4DFE170B1EB9A90800797972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE17091EB9A90800797972 /* Main.storyboard */; };
@@ -59,6 +61,8 @@
 		4DD289391EBCA9BF009D66C2 /* FansQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FansQuestionViewController.swift; sourceTree = "<group>"; };
 		4DD2893B1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSwithQuestionViewController.swift; sourceTree = "<group>"; };
 		4DD2893D1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricSrvsQuestionViewController.swift; sourceTree = "<group>"; };
+		4DF043F41EBDD42F0022963B /* DateOfWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateOfWorkViewController.swift; sourceTree = "<group>"; };
+		4DF043F61EBDF3D10022963B /* UserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 		4DFE17021EB9A90800797972 /* a2zServis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a2zServis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE17051EB9A90800797972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DFE17071EB9A90800797972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				4DB463231EBA6947008E5D05 /* TabBar */,
 				4DA8C6C41EBB4406000FBF06 /* ElectricalViewController.swift */,
 				4DD289371EBCA9AF009D66C2 /* LightingQuestionVIewController.swift */,
+				4DF043F41EBDD42F0022963B /* DateOfWorkViewController.swift */,
+				4DF043F61EBDF3D10022963B /* UserDataViewController.swift */,
 				4DD289391EBCA9BF009D66C2 /* FansQuestionViewController.swift */,
 				4DD2893B1EBCA9F4009D66C2 /* LightSwithQuestionViewController.swift */,
 				4DD2893D1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift */,
@@ -235,6 +241,7 @@
 				TargetAttributes = {
 					4DFE17011EB9A90800797972 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NCU4JG2P77;
 						ProvisioningStyle = Automatic;
 					};
 					4DFE17151EB9A90800797972 = {
@@ -394,8 +401,10 @@
 				4DD2893E1EBCAA07009D66C2 /* ElectricSrvsQuestionViewController.swift in Sources */,
 				4D4E4C391EB9D1D2000535CF /* UserTabBarController.swift in Sources */,
 				4D4E4C351EB9D1A3000535CF /* PlassTabBarController.swift in Sources */,
+				4DF043F51EBDD42F0022963B /* DateOfWorkViewController.swift in Sources */,
 				4D4E4C331EB9D190000535CF /* MessageTabBarController.swift in Sources */,
 				4D4E4C311EB9D180000535CF /* CalenderTabBarController.swift in Sources */,
+				4DF043F71EBDF3D10022963B /* UserDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
 				INFOPLIST_FILE = a2zServis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a2z.a2zServis;
@@ -545,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
 				INFOPLIST_FILE = a2zServis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a2z.a2zServis;

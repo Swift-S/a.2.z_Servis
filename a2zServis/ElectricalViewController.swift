@@ -28,8 +28,6 @@ class ElectricalViewController: UIViewController {
         self.setupView()
     }
     
-    
-
     @IBAction func lightingBttnTapped(_ sender: Any) {
         performSegue(withIdentifier: lightingIdentifire, sender: self)
     }

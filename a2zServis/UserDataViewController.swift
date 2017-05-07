@@ -1,20 +1,23 @@
 //
-//  ElectricSrvsQuestionViewController.swift
+//  UserDataViewController.swift
 //  a2zServis
 //
-//  Created by i Daliri on 5/5/17.
+//  Created by i Daliri on 5/6/17.
 //  Copyright © 2017 a2zApp. All rights reserved.
 //
 
 import UIKit
 import SCLAlertView
 
-class ElectricSrvsQuestionViewController: UIViewController {
-
-    @IBOutlet weak var nextBottomConst: NSLayoutConstraint!
-    @IBOutlet weak var detailLabel: UITextField!
+class UserDataViewController: UIViewController {
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var mobTextField: UITextField!
+    @IBOutlet weak var adderesTextField: UITextField!
+    @IBOutlet weak var sendBottomConst: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // I'm Here...
         self.navigationController?.navigationBar.backItem?.title = ""
     }
@@ -25,11 +28,13 @@ class ElectricSrvsQuestionViewController: UIViewController {
         self.registerForKeyboardNotifications()
     }
     
-    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         self.deregisterFromKeyboardNotifications()
+        self.tabBarController?.tabBar.isHidden = false
     }
+    
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
@@ -52,9 +57,9 @@ class ElectricSrvsQuestionViewController: UIViewController {
             let animationCurveRaw = animationCurveRawNSN?.uintValue ?? UIViewAnimationOptions().rawValue
             let animationCurve:UIViewAnimationOptions = UIViewAnimationOptions(rawValue: animationCurveRaw)
             if (endFrame?.origin.y)! >= UIScreen.main.bounds.size.height {
-                self.nextBottomConst?.constant = 00.0
+                self.sendBottomConst?.constant = 00.0
             } else {
-                self.nextBottomConst?.constant = endFrame!.size.height 
+                self.sendBottomConst?.constant = endFrame!.size.height 
             }
             
             UIView.animate(withDuration: duration,
@@ -64,13 +69,28 @@ class ElectricSrvsQuestionViewController: UIViewController {
                            completion: nil)
         }
     }
-
-    @IBAction func nextBttnTapped(_ sender: Any) {
-        if self.detailLabel.text?.isEmpty == true {
+    //backToPlusTabBarVC
+    @IBAction func sendBttnTapped(_ sender: Any) {
+        if self.nameTextField.text?.isEmpty == true {
             let alert = SCLAlertView()
-            alert.showError("خطا!", subTitle: "لطفا توضیحات را وارد کنید", closeButtonTitle: "ok", animationStyle: .topToBottom)
-        }else {
-            performSegue(withIdentifier: "showDateWorkVCFour", sender: self)
+            alert.showError("خطا!", subTitle: "لطفا نام و نام خانوادگی خود را وارد کنید", closeButtonTitle: "ok", animationStyle: .topToBottom)
+        }else if mobTextField.text?.isEmpty == true {
+            let alert = SCLAlertView()
+            alert.showError("خطا!", subTitle: "لطفا شماره موبایل خود را وارد کنید", closeButtonTitle: "ok", animationStyle: .topToBottom)
+        }else if adderesTextField.text?.isEmpty == true {
+            let alert = SCLAlertView()
+            alert.showError("خطا!", subTitle: "لطفاادرس دقیق خود را وارد کنید", closeButtonTitle: "ok", animationStyle: .topToBottom)
+        }else if self.nameTextField.text?.isEmpty == false || self.mobTextField.text?.isEmpty == false {
+            let appearance = SCLAlertView.SCLAppearance(showCloseButton: false)
+            let alert = SCLAlertView(appearance: appearance)
+            alert.addButton("تایید", textColor: UIColor.lightGray, showDurationStatus: true, target: self, selector: #selector(UserDataViewController.moveToHome))
+            _ = alert.showSuccess("تبریک", subTitle: "اطلاعات با موفقیت ارسال شد", colorStyle: 0xA4D068, colorTextButton: 0xFFFFFF,animationStyle: .topToBottom)
         }
     }
+    
+    func moveToHome() {
+        performSegue(withIdentifier: "backToPlusTabBarVC", sender: self)
+    }
+    
+    
 }

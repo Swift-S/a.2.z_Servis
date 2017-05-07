@@ -33,9 +33,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashIntro" translatesAutoresizingMaskIntoConstraints="NO" id="7cw-eV-bny">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="bkY-zU-B9B">
                                 <rect key="frame" x="140" y="492" width="40" height="40"/>
                                 <constraints>
@@ -43,15 +40,18 @@
                                     <constraint firstAttribute="height" constant="40" id="epg-o3-0mV"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="7cw-eV-bny">
+                                <rect key="frame" x="50" y="253" width="218" height="91"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cXG-gS-bGT" firstAttribute="top" secondItem="7cw-eV-bny" secondAttribute="bottom" id="8Yy-aj-60J"/>
-                            <constraint firstAttribute="trailing" secondItem="7cw-eV-bny" secondAttribute="trailing" id="DBN-Nk-ehR"/>
-                            <constraint firstItem="7cw-eV-bny" firstAttribute="top" secondItem="uey-1C-GPN" secondAttribute="bottom" id="UwO-EP-u1H"/>
+                            <constraint firstItem="cXG-gS-bGT" firstAttribute="top" secondItem="7cw-eV-bny" secondAttribute="bottom" constant="224" id="8Yy-aj-60J"/>
+                            <constraint firstAttribute="trailing" secondItem="7cw-eV-bny" secondAttribute="trailing" constant="52" id="DBN-Nk-ehR"/>
+                            <constraint firstItem="7cw-eV-bny" firstAttribute="top" secondItem="uey-1C-GPN" secondAttribute="bottom" constant="189" id="UwO-EP-u1H"/>
                             <constraint firstItem="bkY-zU-B9B" firstAttribute="centerX" secondItem="RW9-v6-61w" secondAttribute="centerX" id="g6l-rv-Slf"/>
                             <constraint firstItem="cXG-gS-bGT" firstAttribute="top" secondItem="bkY-zU-B9B" secondAttribute="bottom" constant="36" id="gXH-Po-bl2"/>
-                            <constraint firstItem="7cw-eV-bny" firstAttribute="leading" secondItem="RW9-v6-61w" secondAttribute="leading" id="n8v-Se-KDX"/>
+                            <constraint firstItem="7cw-eV-bny" firstAttribute="leading" secondItem="RW9-v6-61w" secondAttribute="leading" constant="50" id="n8v-Se-KDX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5ki-1w-KnI"/>
@@ -77,19 +77,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="چطور میتونیم کمکتون کنیم؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ble-Vy-0Wg">
-                                <rect key="frame" x="8" y="50" width="304" height="34.5"/>
+                                <rect key="frame" x="8" y="94" width="304" height="34.5"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="FRy-V4-pc9">
-                                <rect key="frame" x="83" y="92.5" width="154" height="7"/>
+                                <rect key="frame" x="83" y="136.5" width="154" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="6.5" id="6Yg-8W-Muz"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSo-qy-F6j">
-                                <rect key="frame" x="190" y="122.5" width="70" height="70"/>
+                                <rect key="frame" x="190" y="166.5" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.29411764705882354" green="0.81960784313725488" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="4Zw-Zu-cvV"/>
@@ -104,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pq-Jh-oXx">
-                                <rect key="frame" x="60" y="122.5" width="70" height="70"/>
+                                <rect key="frame" x="60" y="166.5" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.5607843137254902" green="0.76862745098039209" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="4rL-UF-W0v"/>
@@ -119,7 +119,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-hB-GWd">
-                                <rect key="frame" x="190" y="256.5" width="70" height="70"/>
+                                <rect key="frame" x="190" y="300.5" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.70980392156862748" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="EDf-Bw-RYk"/>
@@ -134,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAJ-6f-UZu">
-                                <rect key="frame" x="60" y="256.5" width="70" height="70"/>
+                                <rect key="frame" x="60" y="300.5" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.9882352941176471" green="0.36470588235294116" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="ijg-fA-HWO"/>
@@ -149,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeG-vJ-pLe">
-                                <rect key="frame" x="60" y="389.5" width="70" height="70"/>
+                                <rect key="frame" x="60" y="433.5" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.59215686274509804" green="0.20784313725490194" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="GhB-DH-Qn5"/>
@@ -164,31 +164,31 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="خدمات فنی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knc-nT-kUN">
-                                <rect key="frame" x="189" y="200.5" width="72.5" height="27"/>
+                                <rect key="frame" x="189" y="244.5" width="72.5" height="27"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نظافت" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZh-M6-GWN">
-                                <rect key="frame" x="74.5" y="200.5" width="41.5" height="27"/>
+                                <rect key="frame" x="74.5" y="244.5" width="41.5" height="27"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="برق ساختمان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxS-ao-6H6">
-                                <rect key="frame" x="184.5" y="334.5" width="82.5" height="27"/>
+                                <rect key="frame" x="184.5" y="378.5" width="82.5" height="27"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لوله کشی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oK-Mm-1QI">
-                                <rect key="frame" x="66.5" y="334.5" width="58.5" height="27"/>
+                                <rect key="frame" x="66.5" y="378.5" width="58.5" height="27"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نقاشی ساختمان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4w-80-2yr">
-                                <rect key="frame" x="45" y="467.5" width="100.5" height="27"/>
+                                <rect key="frame" x="45" y="511.5" width="100.5" height="27"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -302,7 +302,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zk0-ET-Fc1">
-                                <rect key="frame" x="240" y="194" width="60" height="60"/>
+                                <rect key="frame" x="240" y="181.5" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="9Re-Uw-WLP"/>
                                     <constraint firstAttribute="height" constant="60" id="xpa-FY-Twb"/>
@@ -316,7 +316,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m82-lI-Oxw">
-                                <rect key="frame" x="240" y="279" width="60" height="60"/>
+                                <rect key="frame" x="240" y="266.5" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="3ju-Vc-xOy"/>
                                     <constraint firstAttribute="width" constant="60" id="ftA-W8-Uyl"/>
@@ -341,19 +341,19 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="خدمات برقی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBM-zG-bVf">
-                                <rect key="frame" x="113.5" y="125" width="94.5" height="32.5"/>
+                                <rect key="frame" x="124" y="125" width="73.5" height="20"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="Dcs-dd-ePy">
-                                <rect key="frame" x="83" y="165" width="154" height="6"/>
+                                <rect key="frame" x="83" y="152.5" width="154" height="6"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="6" id="tRQ-Pi-IVe"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EH4-1G-gg7">
-                                <rect key="frame" x="240" y="364" width="60" height="60"/>
+                                <rect key="frame" x="240" y="351.5" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Wea-rG-HTg"/>
                                     <constraint firstAttribute="height" constant="60" id="tu8-CY-0mN"/>
@@ -367,7 +367,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYF-mW-Nfc">
-                                <rect key="frame" x="240" y="449" width="60" height="60"/>
+                                <rect key="frame" x="240" y="436.5" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Ebr-8h-nSu"/>
                                     <constraint firstAttribute="width" constant="60" id="RYf-p1-reK"/>
@@ -381,43 +381,43 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="روشنایی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1G8-zW-evl">
-                                <rect key="frame" x="182" y="191" width="50" height="27"/>
+                                <rect key="frame" x="190" y="178.5" width="42" height="16.5"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اگر لامپ یا لوستر شما مشکلی دارد، ما آن را حل می‌کنیم " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHl-Qs-eu7">
-                                <rect key="frame" x="20" y="222" width="212" height="38.5"/>
+                                <rect key="frame" x="20" y="199" width="212" height="12"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="10"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فن" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4D-Oq-UZw">
-                                <rect key="frame" x="214" y="280" width="18" height="27"/>
+                                <rect key="frame" x="219" y="230.5" width="13" height="16.5"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="یک کاردان همه چیز را به بهترین شکل نصب و تعمیر میکند." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBp-Bq-aNX">
-                                <rect key="frame" x="20" y="311" width="212" height="38.5"/>
+                                <rect key="frame" x="20" y="251" width="212" height="12"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="10"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سیم کشی و پریز برق" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9R-K9-Gc2">
-                                <rect key="frame" x="103" y="369.5" width="129" height="27"/>
+                                <rect key="frame" x="127.5" y="283" width="104.5" height="16.5"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نیاز به سیم کشی، تعمیر پریز یا سویچ دارید" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygi-hZ-Zv9">
-                                <rect key="frame" x="20" y="400.5" width="212" height="19.5"/>
+                                <rect key="frame" x="20" y="303.5" width="212" height="12"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="10"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkx-Va-hrw">
-                                <rect key="frame" x="154" y="460" width="78" height="27"/>
+                                <rect key="frame" x="171.5" y="355.5" width="60.5" height="16.5"/>
                                 <string key="text">خدمات برقی
 </string>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="14"/>
@@ -425,7 +425,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نیاز به خدمت دیگری دارید؟" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vK9-TV-G7Y">
-                                <rect key="frame" x="30" y="491" width="202" height="19.5"/>
+                                <rect key="frame" x="30" y="376" width="202" height="12"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="10"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -487,10 +487,10 @@
             </objects>
             <point key="canvasLocation" x="4905" y="-11.619718309859156"/>
         </scene>
-        <!--جزیات-->
+        <!--جزئیات-->
         <scene sceneID="f9o-UB-u7Y">
             <objects>
-                <viewController title="جزیات" id="I1o-d4-kkn" customClass="ElectricSrvsQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="جزئیات" id="I1o-d4-kkn" customClass="ElectricSrvsQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lh1-KA-aBc"/>
                         <viewControllerLayoutGuide type="bottom" id="ZBn-xV-Wx9"/>
@@ -499,8 +499,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vi-bi-oUV">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزئیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vi-bi-oUV">
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="kLE-NC-Sxp"/>
@@ -510,7 +510,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOv-Bx-jjc">
-                                <rect key="frame" x="49" y="79" width="223" height="30"/>
+                                <rect key="frame" x="49" y="123" width="223" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="tS5-4K-jvT"/>
                                 </constraints>
@@ -534,7 +534,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="توضیحات" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BW8-5E-JeJ">
-                                <rect key="frame" x="20" y="129" width="280" height="90"/>
+                                <rect key="frame" x="20" y="173" width="280" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="avk-rb-jjV"/>
                                 </constraints>
@@ -581,7 +581,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="چه زمانی را برای انجام کارتان انتخاب میکنید؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hno-fQ-Jt9">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="7eF-cd-r6Z"/>
@@ -591,7 +591,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="برای مشخص کردن زمان لمس کنید" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XgC-Vw-Y1c">
-                                <rect key="frame" x="20" y="69" width="280" height="40"/>
+                                <rect key="frame" x="20" y="113" width="280" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="UzR-xM-6CJ"/>
                                 </constraints>
@@ -650,7 +650,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="چه زمانی را برای انجام کارتان انتخاب میکنید؟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJg-Mr-29q">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="fib-M7-xyb"/>
@@ -660,7 +660,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="نام و نام خانوادگی" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="By3-j4-zZY">
-                                <rect key="frame" x="20" y="67" width="280" height="30"/>
+                                <rect key="frame" x="20" y="111" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="KiQ-tx-ucI"/>
                                 </constraints>
@@ -669,7 +669,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="namePhonePad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="شماره همراه" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XNt-Cs-YTR">
-                                <rect key="frame" x="20" y="105" width="280" height="30"/>
+                                <rect key="frame" x="20" y="149" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EUu-DV-It8"/>
                                 </constraints>
@@ -693,7 +693,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="آدرس" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3YB-CH-Oip">
-                                <rect key="frame" x="20" y="143" width="280" height="30"/>
+                                <rect key="frame" x="20" y="187" width="280" height="30"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="IRAN-sans" family="IRAN-sans" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
@@ -824,10 +824,10 @@
             </objects>
             <point key="canvasLocation" x="-420" y="-10.56338028169014"/>
         </scene>
-        <!--جزیات-->
+        <!--جزئیات-->
         <scene sceneID="PmO-d8-iaN">
             <objects>
-                <viewController title="جزیات" id="BvM-8S-OZC" customClass="LightingQuestionVIewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="جزئیات" id="BvM-8S-OZC" customClass="LightingQuestionVIewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aRM-zj-eq7"/>
                         <viewControllerLayoutGuide type="bottom" id="qKe-RQ-2W2"/>
@@ -836,8 +836,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svc-kz-LwX">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزئیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svc-kz-LwX">
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="TqL-go-tfI"/>
@@ -847,13 +847,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14D-PI-fOn">
-                                <rect key="frame" x="160" y="117" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="161" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYk-IS-3Db">
-                                <rect key="frame" x="84.5" y="79" width="152" height="30"/>
+                                <rect key="frame" x="84.5" y="123" width="152" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7jX-zP-lCl"/>
                                 </constraints>
@@ -866,13 +866,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23u-hO-Qcc">
-                                <rect key="frame" x="160" y="214" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="258" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-Wp-uSK">
-                                <rect key="frame" x="37.5" y="176" width="245" height="30"/>
+                                <rect key="frame" x="37.5" y="220" width="245" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2gb-zy-7QC"/>
                                 </constraints>
@@ -885,25 +885,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="ggP-TQ-hrS">
-                                <rect key="frame" x="0.0" y="149" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="193" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="lkf-Wh-Ovf"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="8M2-5p-NhK">
-                                <rect key="frame" x="0.0" y="246" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="290" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="5FO-B3-KnN"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sce-WR-lJg">
-                                <rect key="frame" x="160" y="311" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="355" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlj-CS-EYE">
-                                <rect key="frame" x="85" y="273" width="150" height="30"/>
+                                <rect key="frame" x="85" y="317" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BsG-Q0-ar9"/>
                                 </constraints>
@@ -916,14 +916,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="gxj-yA-V3F">
-                                <rect key="frame" x="0.0" y="343" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="387" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="369-H0-679"/>
                                     <constraint firstAttribute="height" constant="7" id="3qV-Xx-u9M"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p09-8F-rBJ">
-                                <rect key="frame" x="84" y="370" width="152" height="30"/>
+                                <rect key="frame" x="84" y="414" width="152" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="JsZ-Ll-XEm"/>
                                 </constraints>
@@ -936,7 +936,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-YD-p0U">
-                                <rect key="frame" x="160" y="408" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="452" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1002,10 +1002,10 @@
             </objects>
             <point key="canvasLocation" x="5719" y="-1498"/>
         </scene>
-        <!--جزیات-->
+        <!--جزئیات-->
         <scene sceneID="rLY-bh-A5m">
             <objects>
-                <viewController title="جزیات" id="gPA-ru-03D" customClass="LightSwithQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="جزئیات" id="gPA-ru-03D" customClass="LightSwithQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EGa-1F-Qem"/>
                         <viewControllerLayoutGuide type="bottom" id="lrn-f1-piI"/>
@@ -1014,8 +1014,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tni-e2-HCM">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزئیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tni-e2-HCM">
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="LMt-QQ-IyL"/>
@@ -1025,13 +1025,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRz-82-NQP">
-                                <rect key="frame" x="160" y="117" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="161" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j56-ct-j56">
-                                <rect key="frame" x="130" y="79" width="61" height="30"/>
+                                <rect key="frame" x="130" y="123" width="61" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="kPe-Aa-hB6"/>
                                 </constraints>
@@ -1044,13 +1044,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgS-nT-ZKe">
-                                <rect key="frame" x="160" y="214" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="258" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkj-fU-Hhr">
-                                <rect key="frame" x="120" y="176" width="80" height="30"/>
+                                <rect key="frame" x="120" y="220" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="KLf-5g-aG8"/>
                                 </constraints>
@@ -1063,25 +1063,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="Bbi-1W-2rN">
-                                <rect key="frame" x="0.0" y="149" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="193" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="YD5-dx-7zj"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="TlB-Yx-SPM">
-                                <rect key="frame" x="0.0" y="246" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="290" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="caL-fN-i4x"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRj-fX-p7e">
-                                <rect key="frame" x="160" y="311" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="355" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGY-mR-rl4">
-                                <rect key="frame" x="28" y="273" width="264" height="30"/>
+                                <rect key="frame" x="28" y="317" width="264" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dkm-he-l0p"/>
                                 </constraints>
@@ -1147,10 +1147,10 @@
             </objects>
             <point key="canvasLocation" x="5719" y="-116"/>
         </scene>
-        <!--جزیات-->
+        <!--جزئیات-->
         <scene sceneID="wRD-LA-aTX">
             <objects>
-                <viewController title="جزیات" id="3KX-TN-1oS" customClass="FansQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="جزئیات" id="3KX-TN-1oS" customClass="FansQuestionViewController" customModule="a2zServis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XoE-xM-3hI"/>
                         <viewControllerLayoutGuide type="bottom" id="k2F-oA-jTd"/>
@@ -1159,8 +1159,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URy-PB-gDy">
-                                <rect key="frame" x="0.0" y="20" width="320" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="متوجه شدیم! جزئیات نیازتان را با لمس کردن سوال مشخص کنید." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URy-PB-gDy">
+                                <rect key="frame" x="0.0" y="64" width="320" height="39"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="sCL-yp-Iby"/>
@@ -1170,13 +1170,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vma-hr-bm4">
-                                <rect key="frame" x="160" y="117" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="161" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ece-2y-CaW">
-                                <rect key="frame" x="132" y="79" width="57" height="30"/>
+                                <rect key="frame" x="132" y="123" width="57" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="SKn-eS-fPu"/>
                                 </constraints>
@@ -1189,19 +1189,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVL-FG-97z">
-                                <rect key="frame" x="160" y="214" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="258" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="oZ0-7t-wgu">
-                                <rect key="frame" x="0.0" y="149" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="193" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="aVP-sb-dGW"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ef-9j-Xs2">
-                                <rect key="frame" x="86" y="176" width="149" height="30"/>
+                                <rect key="frame" x="86" y="220" width="149" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="JHx-8G-nXE"/>
                                 </constraints>
@@ -1214,13 +1214,13 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineDevider" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-bX-XVd">
-                                <rect key="frame" x="0.0" y="246" width="320" height="7"/>
+                                <rect key="frame" x="0.0" y="290" width="320" height="7"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="7" id="pQs-h2-O04"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayd-Vo-0GH">
-                                <rect key="frame" x="59.5" y="273" width="201" height="30"/>
+                                <rect key="frame" x="59.5" y="317" width="201" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="G3O-8g-d4L"/>
                                 </constraints>
@@ -1247,7 +1247,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnw-jh-CWq">
-                                <rect key="frame" x="160" y="311" width="0.0" height="0.0"/>
+                                <rect key="frame" x="160" y="355" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="IRANSansWebNoEn-Light" family="IRANSansWeb(NoEn)" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -1294,9 +1294,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bitmap" width="370" height="231"/>
         <image name="lineDevider" width="599" height="84"/>
         <image name="loading" width="256" height="256"/>
-        <image name="splashIntro" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dID-Sm-p9g"/>

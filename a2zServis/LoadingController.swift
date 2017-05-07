@@ -44,7 +44,7 @@ class LoadingController: UIViewController {
     
     func rotateLoading() {
         UIView.animate(withDuration: 0.9, delay: 0, options: .curveLinear, animations: { 
-            self.loadingIconView!.transform = self.loadingIconView!.transform.rotated(by: CGFloat(M_PI))
+            self.loadingIconView!.transform = self.loadingIconView!.transform.rotated(by: CGFloat(Double.pi))
         }, completion: { finished in
             self.rotateLoading()
         })
